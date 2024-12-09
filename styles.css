@@ -4,6 +4,7 @@
         Assignment: Online Profile
         File Name: styles.css 
 */
+
 html {
     background-color: antiquewhite;
 }
@@ -13,7 +14,11 @@ a:visited {
 }
 
 a:hover {
-    background-color: rgba(1, 66, 4, 0.109);
+    background-color:rgb(210, 170, 118);
+}
+
+a:link {
+    color: rgb(79, 40, 20);
 }
 
 .profile {
@@ -30,9 +35,26 @@ a:hover {
     background-color: burlywood;
 }
 
-.nav {
-    border-radius: 10px;
-    padding: 10px;
+/* navigation styling */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
     background-color: burlywood;
+    border-radius: 10px;
+}
+
+
+li a {
+    float: left;
+    display: block;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(210, 170, 118);
 }

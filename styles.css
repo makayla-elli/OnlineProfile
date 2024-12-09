@@ -4,3 +4,35 @@
         Assignment: Online Profile
         File Name: styles.css 
 */
+html {
+    background-color: antiquewhite;
+}
+
+a:visited {
+    color: rgb(79, 40, 20);
+}
+
+a:hover {
+    background-color: rgba(1, 66, 4, 0.109);
+}
+
+.profile {
+    position: absolute;
+    top: 20px;
+    bottom: auto;
+    right: 20px;
+}
+
+.header {
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: burlywood;
+}
+
+.nav {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: burlywood;
+    text-align: center;
+}

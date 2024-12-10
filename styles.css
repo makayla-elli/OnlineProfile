@@ -24,6 +24,12 @@ a:link {
     right: 20px;
 }
 
+.page {
+    width: 75%;
+    margin: auto;
+    max-width: 1200px;
+}
+
 .header {
     max-width: 100%;
     border-radius: 10px;
@@ -43,7 +49,7 @@ footer {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 50;
+    padding: 5px;
     overflow: hidden;
     background-color: burlywood;
     border-radius: 10px;
@@ -60,6 +66,49 @@ li a {
 
 .active {
     background-color: rgb(210, 170, 118);
+}
+
+/* index page */
+#hobbies {
+    border: 3px solid rgb(79, 40, 20);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 45%;
+    float: right;
+    background-color: #e6ccb3
+}
+
+.roundedimage {
+    border-radius: 5%;
+    width: 49%;
+}
+
+#about {
+    float: left;
+    width: 50%;
+}
+
+/* Skills Page */
+
+.skills{
+    width: 75%;
+    margin: auto;
+    
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text2 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.text3 {
+    font-size: 16px;
 }
 
 /* classes (table) */
@@ -160,4 +209,14 @@ input {
     margin-right: 30px;
     margin-left: 30px;
 
+}
+
+.git{
+    width: 35%;
+    border-radius: 10px;
+    float: right;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
 }

@@ -220,3 +220,21 @@ input {
     margin-right: 30px;
     margin-left: 30px;
 }
+
+@media screen and (max-width:800px){
+    .profile {
+        display: none;
+    }
+
+    .web {
+        display: none;
+    }
+
+    #about {
+        width: 100%;
+    }
+
+    #hobbies {
+        width: 100%;
+    }
+}
